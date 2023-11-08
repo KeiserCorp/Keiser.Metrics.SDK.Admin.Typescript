@@ -1,4 +1,4 @@
-## @keiser/metrics-sdk-admin-typescript@5.0.3
+## @keiser/metrics-sdk-admin-typescript@5.0.4
 
 ## Project
 This SDK facilitates communication between a client system (_ie: phone app, website, server_) and [Keiser Metrics](https://metrics.keiser.com). The SDK is written in [TypeScript](https://www.typescriptlang.org) and supports both [browser](https://caniuse.com/#feat=es6) and [NodeJS](https://nodejs.org) platforms.
@@ -9,7 +9,7 @@ This SDK facilitates communication between a client system (_ie: phone app, webs
 Navigate to the folder of your consuming project and install with [npm](https://www.npmjs.com/):
 
 ```
-npm install @keiser/metrics-sdk-admin-typescript@5.0.3 --save
+npm install @keiser/metrics-sdk-admin-typescript@5.0.4 --save
 ```
 
 
@@ -51,136 +51,136 @@ All URIs are relative to *https://metrics-api.keiser.com/api*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**adminLogin**](MetricsAdminApi.md#adminLogin) | **POST** /admin/login | Login admin user using email, password, and 2FA token
-[**authExchangeFulfillment**](MetricsAdminApi.md#authExchangeFulfillment) | **POST** /auth/exchange/fulfillment | Exchanges an authorization token for access and refresh tokens
-[**facilityLicenseCreate**](MetricsAdminApi.md#facilityLicenseCreate) | **POST** /facility/license | Create a facility license
-[**facilityLicenseDelete**](MetricsAdminApi.md#facilityLicenseDelete) | **DELETE** /facility/license/{id} | Delete a facility license
-[**facilityLicenseList**](MetricsAdminApi.md#facilityLicenseList) | **GET** /facility/license | List facility licenses
-[**globalAccessControlCreate**](MetricsAdminApi.md#globalAccessControlCreate) | **POST** /global-access-control | Create a user\&#39;s global access control rights
-[**globalAccessControlDelete**](MetricsAdminApi.md#globalAccessControlDelete) | **DELETE** /global-access-control/{userId} | Delete a user\&#39;s global access control
-[**globalAccessControlList**](MetricsAdminApi.md#globalAccessControlList) | **GET** /global-access-control | List global access control for users
-[**globalAccessControlRecreateSecret**](MetricsAdminApi.md#globalAccessControlRecreateSecret) | **POST** /global-access-control/recreate-secret | Recreate a user\&#39;s authenticator secret
-[**globalAccessControlShow**](MetricsAdminApi.md#globalAccessControlShow) | **GET** /global-access-control/{userId} | Show a global access control
-[**globalAccessControlUpdate**](MetricsAdminApi.md#globalAccessControlUpdate) | **PUT** /global-access-control | Update a user global access control rights
-[**resqueCacheCreate**](MetricsAdminApi.md#resqueCacheCreate) | **POST** /resque/cache | Create cached object
-[**resqueCacheDelete**](MetricsAdminApi.md#resqueCacheDelete) | **DELETE** /resque/cache/{key} | Delete cached object
-[**resqueCacheList**](MetricsAdminApi.md#resqueCacheList) | **GET** /resque/cache | List cached objects
-[**resqueCacheShow**](MetricsAdminApi.md#resqueCacheShow) | **GET** /resque/cache/{key} | Show cache object
-[**resqueCacheUpdate**](MetricsAdminApi.md#resqueCacheUpdate) | **PUT** /resque/cache/{key} | Update cached object
-[**resqueDetails**](MetricsAdminApi.md#resqueDetails) | **GET** /resque/details | Show wholistic details about resque system
-[**resqueTaskDeleteAllFailed**](MetricsAdminApi.md#resqueTaskDeleteAllFailed) | **DELETE** /resque/task/delete-all-failed | Delete all failed task
-[**resqueTaskDeleteFailed**](MetricsAdminApi.md#resqueTaskDeleteFailed) | **DELETE** /resque/task/delete-failed | Delete a failed task
-[**resqueTaskDeleteTask**](MetricsAdminApi.md#resqueTaskDeleteTask) | **DELETE** /resque/task/delete-task | Delete a task from the queue
-[**resqueTaskFailures**](MetricsAdminApi.md#resqueTaskFailures) | **GET** /resque/task/failures | Lists failed tasks
-[**resqueTaskQueue**](MetricsAdminApi.md#resqueTaskQueue) | **GET** /resque/task/queue | Lists enqueued tasks
-[**resqueTaskRetryAllFailed**](MetricsAdminApi.md#resqueTaskRetryAllFailed) | **POST** /resque/task/retry-all-failed | Remove and retry all failed task
-[**resqueTaskRetryFailed**](MetricsAdminApi.md#resqueTaskRetryFailed) | **POST** /resque/task/retry-failed | Remove and retry a failed task
-[**resqueWorkerList**](MetricsAdminApi.md#resqueWorkerList) | **GET** /resque/worker | List resque workers
-[**statsList**](MetricsAdminApi.md#statsList) | **GET** /stats | Shows stats queries
-[**userDelete**](MetricsAdminApi.md#userDelete) | **DELETE** /user | Delete a user
-[**userList**](MetricsAdminApi.md#userList) | **GET** /user/list | List users
-[**userMerge**](MetricsAdminApi.md#userMerge) | **PUT** /user/merge | Merge two user together
-[**userShow**](MetricsAdminApi.md#userShow) | **GET** /user | Show a user
+[**adminLogin**](docs/MetricsAdminApi.md#adminLogin) | **POST** /admin/login | Login admin user using email, password, and 2FA token
+[**authExchangeFulfillment**](docs/MetricsAdminApi.md#authExchangeFulfillment) | **POST** /auth/exchange/fulfillment | Exchanges an authorization token for access and refresh tokens
+[**facilityLicenseCreate**](docs/MetricsAdminApi.md#facilityLicenseCreate) | **POST** /facility/license | Create a facility license
+[**facilityLicenseDelete**](docs/MetricsAdminApi.md#facilityLicenseDelete) | **DELETE** /facility/license/{id} | Delete a facility license
+[**facilityLicenseList**](docs/MetricsAdminApi.md#facilityLicenseList) | **GET** /facility/license | List facility licenses
+[**globalAccessControlCreate**](docs/MetricsAdminApi.md#globalAccessControlCreate) | **POST** /global-access-control | Create a user\&#39;s global access control rights
+[**globalAccessControlDelete**](docs/MetricsAdminApi.md#globalAccessControlDelete) | **DELETE** /global-access-control/{userId} | Delete a user\&#39;s global access control
+[**globalAccessControlList**](docs/MetricsAdminApi.md#globalAccessControlList) | **GET** /global-access-control | List global access control for users
+[**globalAccessControlRecreateSecret**](docs/MetricsAdminApi.md#globalAccessControlRecreateSecret) | **POST** /global-access-control/recreate-secret | Recreate a user\&#39;s authenticator secret
+[**globalAccessControlShow**](docs/MetricsAdminApi.md#globalAccessControlShow) | **GET** /global-access-control/{userId} | Show a global access control
+[**globalAccessControlUpdate**](docs/MetricsAdminApi.md#globalAccessControlUpdate) | **PUT** /global-access-control | Update a user global access control rights
+[**resqueCacheCreate**](docs/MetricsAdminApi.md#resqueCacheCreate) | **POST** /resque/cache | Create cached object
+[**resqueCacheDelete**](docs/MetricsAdminApi.md#resqueCacheDelete) | **DELETE** /resque/cache/{key} | Delete cached object
+[**resqueCacheList**](docs/MetricsAdminApi.md#resqueCacheList) | **GET** /resque/cache | List cached objects
+[**resqueCacheShow**](docs/MetricsAdminApi.md#resqueCacheShow) | **GET** /resque/cache/{key} | Show cache object
+[**resqueCacheUpdate**](docs/MetricsAdminApi.md#resqueCacheUpdate) | **PUT** /resque/cache/{key} | Update cached object
+[**resqueDetails**](docs/MetricsAdminApi.md#resqueDetails) | **GET** /resque/details | Show wholistic details about resque system
+[**resqueTaskDeleteAllFailed**](docs/MetricsAdminApi.md#resqueTaskDeleteAllFailed) | **DELETE** /resque/task/delete-all-failed | Delete all failed task
+[**resqueTaskDeleteFailed**](docs/MetricsAdminApi.md#resqueTaskDeleteFailed) | **DELETE** /resque/task/delete-failed | Delete a failed task
+[**resqueTaskDeleteTask**](docs/MetricsAdminApi.md#resqueTaskDeleteTask) | **DELETE** /resque/task/delete-task | Delete a task from the queue
+[**resqueTaskFailures**](docs/MetricsAdminApi.md#resqueTaskFailures) | **GET** /resque/task/failures | Lists failed tasks
+[**resqueTaskQueue**](docs/MetricsAdminApi.md#resqueTaskQueue) | **GET** /resque/task/queue | Lists enqueued tasks
+[**resqueTaskRetryAllFailed**](docs/MetricsAdminApi.md#resqueTaskRetryAllFailed) | **POST** /resque/task/retry-all-failed | Remove and retry all failed task
+[**resqueTaskRetryFailed**](docs/MetricsAdminApi.md#resqueTaskRetryFailed) | **POST** /resque/task/retry-failed | Remove and retry a failed task
+[**resqueWorkerList**](docs/MetricsAdminApi.md#resqueWorkerList) | **GET** /resque/worker | List resque workers
+[**statsList**](docs/MetricsAdminApi.md#statsList) | **GET** /stats | Shows stats queries
+[**userDelete**](docs/MetricsAdminApi.md#userDelete) | **DELETE** /user | Delete a user
+[**userList**](docs/MetricsAdminApi.md#userList) | **GET** /user/list | List users
+[**userMerge**](docs/MetricsAdminApi.md#userMerge) | **PUT** /user/merge | Merge two user together
+[**userShow**](docs/MetricsAdminApi.md#userShow) | **GET** /user | Show a user
 
 
 ## Documentation for Models
 
- - [A500DataSetData](A500DataSetData.md)
- - [A500MachineStateData](A500MachineStateData.md)
- - [A500RepDataPointData](A500RepDataPointData.md)
- - [A500TestResultData](A500TestResultData.md)
- - [A500TimeSeriesPointData](A500TimeSeriesPointData.md)
- - [AcceptedTermsVersionData](AcceptedTermsVersionData.md)
- - [BodyCompositionMeasurementData](BodyCompositionMeasurementData.md)
- - [CacheKeysResponse](CacheKeysResponse.md)
- - [CacheObject](CacheObject.md)
- - [CacheObjectResponse](CacheObjectResponse.md)
- - [CardioExerciseData](CardioExerciseData.md)
- - [CardioExerciseVariantData](CardioExerciseVariantData.md)
- - [CardioMachineData](CardioMachineData.md)
- - [EmailAddressData](EmailAddressData.md)
- - [ExerciseAliasData](ExerciseAliasData.md)
- - [ExerciseOrdinalSetAssignmentData](ExerciseOrdinalSetAssignmentData.md)
- - [ExerciseOrdinalSetData](ExerciseOrdinalSetData.md)
- - [FacilityConfigurationData](FacilityConfigurationData.md)
- - [FacilityData](FacilityData.md)
- - [FacilityLicenseData](FacilityLicenseData.md)
- - [FacilityLicenseListResponse](FacilityLicenseListResponse.md)
- - [FacilityLicenseListResponseMeta](FacilityLicenseListResponseMeta.md)
- - [FacilityLicenseResponse](FacilityLicenseResponse.md)
- - [FacilityLicenseSorting](FacilityLicenseSorting.md)
- - [FacilityProfileData](FacilityProfileData.md)
- - [FacilityRelationshipData](FacilityRelationshipData.md)
- - [FacilitySessionUserData](FacilitySessionUserData.md)
- - [FacilityStrengthMachineConfigurationData](FacilityStrengthMachineConfigurationData.md)
- - [FacilityStrengthMachineData](FacilityStrengthMachineData.md)
- - [FingerprintData](FingerprintData.md)
- - [GlobalAccessControlCreationResponse](GlobalAccessControlCreationResponse.md)
- - [GlobalAccessControlData](GlobalAccessControlData.md)
- - [GlobalAccessControlListResponse](GlobalAccessControlListResponse.md)
- - [GlobalAccessControlListResponseMeta](GlobalAccessControlListResponseMeta.md)
- - [GlobalAccessControlResponse](GlobalAccessControlResponse.md)
- - [GlobalAccessControlSecretData](GlobalAccessControlSecretData.md)
- - [GlobalAccessControlSecretResponse](GlobalAccessControlSecretResponse.md)
- - [GlobalAccessControlSorting](GlobalAccessControlSorting.md)
- - [HeartRateDataPointData](HeartRateDataPointData.md)
- - [HeartRateDataSetData](HeartRateDataSetData.md)
- - [HeartRateDataSetSessionData](HeartRateDataSetSessionData.md)
- - [HeightMeasurementData](HeightMeasurementData.md)
- - [High](High.md)
- - [Low](Low.md)
- - [MSeriesDataPointData](MSeriesDataPointData.md)
- - [MSeriesDataSetData](MSeriesDataSetData.md)
- - [MSeriesDataSetSegmentData](MSeriesDataSetSegmentData.md)
- - [MSeriesFtpMeasurementData](MSeriesFtpMeasurementData.md)
- - [MuscleArea](MuscleArea.md)
- - [MuscleData](MuscleData.md)
- - [MuscleGroup](MuscleGroup.md)
- - [MuscleIdentifier](MuscleIdentifier.md)
- - [OAuthServiceData](OAuthServiceData.md)
- - [PrimaryEmailAddressData](PrimaryEmailAddressData.md)
- - [ProfileData](ProfileData.md)
- - [Queue](Queue.md)
- - [ResqueDetailsData](ResqueDetailsData.md)
- - [ResqueDetailsResponse](ResqueDetailsResponse.md)
- - [SessionData](SessionData.md)
- - [SessionPlanActivitySetData](SessionPlanActivitySetData.md)
- - [SessionPlanCardioSetData](SessionPlanCardioSetData.md)
- - [SessionPlanData](SessionPlanData.md)
- - [SessionPlanSequenceAssignmentData](SessionPlanSequenceAssignmentData.md)
- - [SessionPlanSequenceData](SessionPlanSequenceData.md)
- - [SessionPlanSequenceInstanceData](SessionPlanSequenceInstanceData.md)
- - [SessionPlanSetData](SessionPlanSetData.md)
- - [SessionPlanSetInstanceData](SessionPlanSetInstanceData.md)
- - [SessionPlanStrengthSetData](SessionPlanStrengthSetData.md)
- - [SessionPlanStretchSetData](SessionPlanStretchSetData.md)
- - [StatData](StatData.md)
- - [StatListResponse](StatListResponse.md)
- - [StatListResponseMeta](StatListResponseMeta.md)
- - [StatSorting](StatSorting.md)
- - [StrengthExerciseData](StrengthExerciseData.md)
- - [StrengthExerciseVariantData](StrengthExerciseVariantData.md)
- - [StrengthMachineData](StrengthMachineData.md)
- - [StrengthMachineDataSetData](StrengthMachineDataSetData.md)
- - [StrengthMachineDataSetTestData](StrengthMachineDataSetTestData.md)
- - [StrengthMachineDataSetTestSubsetData](StrengthMachineDataSetTestSubsetData.md)
- - [StrengthMachineModelData](StrengthMachineModelData.md)
- - [StretchExerciseData](StretchExerciseData.md)
- - [StretchExerciseVariantData](StretchExerciseVariantData.md)
- - [TaskFailedResponse](TaskFailedResponse.md)
- - [TaskFailure](TaskFailure.md)
- - [TaskPayload](TaskPayload.md)
- - [TaskQueueResponse](TaskQueueResponse.md)
- - [TaskQueueResponseMeta](TaskQueueResponseMeta.md)
- - [TaskQueues](TaskQueues.md)
- - [TaskStats](TaskStats.md)
- - [UserData](UserData.md)
- - [UserListResponse](UserListResponse.md)
- - [UserListResponseMeta](UserListResponseMeta.md)
- - [UserResponse](UserResponse.md)
- - [UserSorting](UserSorting.md)
- - [WeightMeasurementData](WeightMeasurementData.md)
- - [WorkersResponse](WorkersResponse.md)
+ - [A500DataSetData](docs/A500DataSetData.md)
+ - [A500MachineStateData](docs/A500MachineStateData.md)
+ - [A500RepDataPointData](docs/A500RepDataPointData.md)
+ - [A500TestResultData](docs/A500TestResultData.md)
+ - [A500TimeSeriesPointData](docs/A500TimeSeriesPointData.md)
+ - [AcceptedTermsVersionData](docs/AcceptedTermsVersionData.md)
+ - [BodyCompositionMeasurementData](docs/BodyCompositionMeasurementData.md)
+ - [CacheKeysResponse](docs/CacheKeysResponse.md)
+ - [CacheObject](docs/CacheObject.md)
+ - [CacheObjectResponse](docs/CacheObjectResponse.md)
+ - [CardioExerciseData](docs/CardioExerciseData.md)
+ - [CardioExerciseVariantData](docs/CardioExerciseVariantData.md)
+ - [CardioMachineData](docs/CardioMachineData.md)
+ - [EmailAddressData](docs/EmailAddressData.md)
+ - [ExerciseAliasData](docs/ExerciseAliasData.md)
+ - [ExerciseOrdinalSetAssignmentData](docs/ExerciseOrdinalSetAssignmentData.md)
+ - [ExerciseOrdinalSetData](docs/ExerciseOrdinalSetData.md)
+ - [FacilityConfigurationData](docs/FacilityConfigurationData.md)
+ - [FacilityData](docs/FacilityData.md)
+ - [FacilityLicenseData](docs/FacilityLicenseData.md)
+ - [FacilityLicenseListResponse](docs/FacilityLicenseListResponse.md)
+ - [FacilityLicenseListResponseMeta](docs/FacilityLicenseListResponseMeta.md)
+ - [FacilityLicenseResponse](docs/FacilityLicenseResponse.md)
+ - [FacilityLicenseSorting](docs/FacilityLicenseSorting.md)
+ - [FacilityProfileData](docs/FacilityProfileData.md)
+ - [FacilityRelationshipData](docs/FacilityRelationshipData.md)
+ - [FacilitySessionUserData](docs/FacilitySessionUserData.md)
+ - [FacilityStrengthMachineConfigurationData](docs/FacilityStrengthMachineConfigurationData.md)
+ - [FacilityStrengthMachineData](docs/FacilityStrengthMachineData.md)
+ - [FingerprintData](docs/FingerprintData.md)
+ - [GlobalAccessControlCreationResponse](docs/GlobalAccessControlCreationResponse.md)
+ - [GlobalAccessControlData](docs/GlobalAccessControlData.md)
+ - [GlobalAccessControlListResponse](docs/GlobalAccessControlListResponse.md)
+ - [GlobalAccessControlListResponseMeta](docs/GlobalAccessControlListResponseMeta.md)
+ - [GlobalAccessControlResponse](docs/GlobalAccessControlResponse.md)
+ - [GlobalAccessControlSecretData](docs/GlobalAccessControlSecretData.md)
+ - [GlobalAccessControlSecretResponse](docs/GlobalAccessControlSecretResponse.md)
+ - [GlobalAccessControlSorting](docs/GlobalAccessControlSorting.md)
+ - [HeartRateDataPointData](docs/HeartRateDataPointData.md)
+ - [HeartRateDataSetData](docs/HeartRateDataSetData.md)
+ - [HeartRateDataSetSessionData](docs/HeartRateDataSetSessionData.md)
+ - [HeightMeasurementData](docs/HeightMeasurementData.md)
+ - [High](docs/High.md)
+ - [Low](docs/Low.md)
+ - [MSeriesDataPointData](docs/MSeriesDataPointData.md)
+ - [MSeriesDataSetData](docs/MSeriesDataSetData.md)
+ - [MSeriesDataSetSegmentData](docs/MSeriesDataSetSegmentData.md)
+ - [MSeriesFtpMeasurementData](docs/MSeriesFtpMeasurementData.md)
+ - [MuscleArea](docs/MuscleArea.md)
+ - [MuscleData](docs/MuscleData.md)
+ - [MuscleGroup](docs/MuscleGroup.md)
+ - [MuscleIdentifier](docs/MuscleIdentifier.md)
+ - [OAuthServiceData](docs/OAuthServiceData.md)
+ - [PrimaryEmailAddressData](docs/PrimaryEmailAddressData.md)
+ - [ProfileData](docs/ProfileData.md)
+ - [Queue](docs/Queue.md)
+ - [ResqueDetailsData](docs/ResqueDetailsData.md)
+ - [ResqueDetailsResponse](docs/ResqueDetailsResponse.md)
+ - [SessionData](docs/SessionData.md)
+ - [SessionPlanActivitySetData](docs/SessionPlanActivitySetData.md)
+ - [SessionPlanCardioSetData](docs/SessionPlanCardioSetData.md)
+ - [SessionPlanData](docs/SessionPlanData.md)
+ - [SessionPlanSequenceAssignmentData](docs/SessionPlanSequenceAssignmentData.md)
+ - [SessionPlanSequenceData](docs/SessionPlanSequenceData.md)
+ - [SessionPlanSequenceInstanceData](docs/SessionPlanSequenceInstanceData.md)
+ - [SessionPlanSetData](docs/SessionPlanSetData.md)
+ - [SessionPlanSetInstanceData](docs/SessionPlanSetInstanceData.md)
+ - [SessionPlanStrengthSetData](docs/SessionPlanStrengthSetData.md)
+ - [SessionPlanStretchSetData](docs/SessionPlanStretchSetData.md)
+ - [StatData](docs/StatData.md)
+ - [StatListResponse](docs/StatListResponse.md)
+ - [StatListResponseMeta](docs/StatListResponseMeta.md)
+ - [StatSorting](docs/StatSorting.md)
+ - [StrengthExerciseData](docs/StrengthExerciseData.md)
+ - [StrengthExerciseVariantData](docs/StrengthExerciseVariantData.md)
+ - [StrengthMachineData](docs/StrengthMachineData.md)
+ - [StrengthMachineDataSetData](docs/StrengthMachineDataSetData.md)
+ - [StrengthMachineDataSetTestData](docs/StrengthMachineDataSetTestData.md)
+ - [StrengthMachineDataSetTestSubsetData](docs/StrengthMachineDataSetTestSubsetData.md)
+ - [StrengthMachineModelData](docs/StrengthMachineModelData.md)
+ - [StretchExerciseData](docs/StretchExerciseData.md)
+ - [StretchExerciseVariantData](docs/StretchExerciseVariantData.md)
+ - [TaskFailedResponse](docs/TaskFailedResponse.md)
+ - [TaskFailure](docs/TaskFailure.md)
+ - [TaskPayload](docs/TaskPayload.md)
+ - [TaskQueueResponse](docs/TaskQueueResponse.md)
+ - [TaskQueueResponseMeta](docs/TaskQueueResponseMeta.md)
+ - [TaskQueues](docs/TaskQueues.md)
+ - [TaskStats](docs/TaskStats.md)
+ - [UserData](docs/UserData.md)
+ - [UserListResponse](docs/UserListResponse.md)
+ - [UserListResponseMeta](docs/UserListResponseMeta.md)
+ - [UserResponse](docs/UserResponse.md)
+ - [UserSorting](docs/UserSorting.md)
+ - [WeightMeasurementData](docs/WeightMeasurementData.md)
+ - [WorkersResponse](docs/WorkersResponse.md)
 
 
 ## Documentation for Authorization

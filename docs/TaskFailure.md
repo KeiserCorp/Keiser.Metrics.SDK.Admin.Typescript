@@ -12,3 +12,5 @@ Name | Type | Description | Notes
 **queue** | [**Queue**](Queue.md) |  | [default to undefined]
 **worker** | **string** |  | [default to undefined]
 
+
+[[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
