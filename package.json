@@ -1,7 +1,7 @@
 {
-  "name": "@keiser/metrics-sdk-admin",
-  "version": "5.0.2",
-  "description": "OpenAPI client for @keiser/metrics-sdk-admin",
+  "name": "@keiser/metrics-sdk-admin-typescript",
+  "version": "5.0.3",
+  "description": "OpenAPI client for @keiser/metrics-sdk-admin-typescript",
   "author": "OpenAPI-Generator",
   "repository": {
     "type": "git",

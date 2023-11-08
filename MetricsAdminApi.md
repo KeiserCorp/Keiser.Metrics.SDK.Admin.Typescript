@@ -44,7 +44,7 @@ Method | HTTP request | Description
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -101,7 +101,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -149,7 +149,7 @@ No authorization required
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -209,7 +209,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -257,7 +257,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -326,7 +326,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -398,7 +398,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -446,7 +446,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -506,7 +506,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -551,7 +551,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -599,7 +599,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -671,7 +671,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -725,7 +725,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -773,7 +773,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -818,7 +818,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -866,7 +866,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -920,7 +920,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -965,7 +965,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -1010,7 +1010,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -1058,7 +1058,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -1112,7 +1112,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -1163,7 +1163,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -1217,7 +1217,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -1262,7 +1262,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -1310,7 +1310,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -1355,7 +1355,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -1418,7 +1418,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -1466,7 +1466,7 @@ void (empty response body)
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -1529,7 +1529,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
@@ -1580,7 +1580,7 @@ Name | Type | Description  | Notes
 
 
 ```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin';
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
 import * as fs from 'fs';
 
 const api = new MetricsAdminApi();
