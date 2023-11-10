@@ -1,4 +1,4 @@
-## @keiser/metrics-sdk-admin-typescript@5.0.9
+## @keiser/metrics-sdk-admin-typescript@5.0.10
 
 ## Project
 This SDK facilitates communication between a client system (_ie: phone app, website, server_) and [Keiser Metrics](https://metrics.keiser.com). The SDK is written in [TypeScript](https://www.typescriptlang.org) and supports both [browser](https://caniuse.com/#feat=es6) and [NodeJS](https://nodejs.org) platforms.
@@ -9,7 +9,7 @@ This SDK facilitates communication between a client system (_ie: phone app, webs
 Navigate to the folder of your consuming project and install with [npm](https://www.npmjs.com/):
 
 ```
-npm install @keiser/metrics-sdk-admin-typescript@5.0.9 --save
+npm install @keiser/metrics-sdk-admin-typescript@5.0.10 --save
 ```
 
 
@@ -55,17 +55,16 @@ Method | HTTP request | Description
 [**authExchangeFulfillment**](docs/MetricsAdminApi.md#authExchangeFulfillment) | **POST** /auth/exchange/fulfillment | Exchanges an authorization token for access and refresh tokens
 [**facilityLicenseCreate**](docs/MetricsAdminApi.md#facilityLicenseCreate) | **POST** /facility/license | Create a facility license
 [**facilityLicenseDelete**](docs/MetricsAdminApi.md#facilityLicenseDelete) | **DELETE** /facility/license/{id} | Delete a facility license
-[**facilityLicenseList**](docs/MetricsAdminApi.md#facilityLicenseList) | **GET** /facility/license | List facility licenses
+[**facilityLicenseList**](docs/MetricsAdminApi.md#facilityLicenseList) | **GET** /facility/license/list | List facility licenses
 [**globalAccessControlCreate**](docs/MetricsAdminApi.md#globalAccessControlCreate) | **POST** /global-access-control | Create a user\&#39;s global access control rights
 [**globalAccessControlDelete**](docs/MetricsAdminApi.md#globalAccessControlDelete) | **DELETE** /global-access-control/{userId} | Delete a user\&#39;s global access control
-[**globalAccessControlList**](docs/MetricsAdminApi.md#globalAccessControlList) | **GET** /global-access-control | List global access control for users
+[**globalAccessControlList**](docs/MetricsAdminApi.md#globalAccessControlList) | **GET** /global-access-control/list | List global access control for users
 [**globalAccessControlRecreateSecret**](docs/MetricsAdminApi.md#globalAccessControlRecreateSecret) | **POST** /global-access-control/recreate-secret | Recreate a user\&#39;s authenticator secret
-[**globalAccessControlShow**](docs/MetricsAdminApi.md#globalAccessControlShow) | **GET** /global-access-control/{userId} | Show a global access control
+[**globalAccessControlShow**](docs/MetricsAdminApi.md#globalAccessControlShow) | **GET** /global-access-control | Show a global access control
 [**globalAccessControlUpdate**](docs/MetricsAdminApi.md#globalAccessControlUpdate) | **PUT** /global-access-control | Update a user global access control rights
 [**resqueCacheCreate**](docs/MetricsAdminApi.md#resqueCacheCreate) | **POST** /resque/cache | Create cached object
 [**resqueCacheDelete**](docs/MetricsAdminApi.md#resqueCacheDelete) | **DELETE** /resque/cache/{key} | Delete cached object
-[**resqueCacheList**](docs/MetricsAdminApi.md#resqueCacheList) | **GET** /resque/cache | List cached objects
-[**resqueCacheShow**](docs/MetricsAdminApi.md#resqueCacheShow) | **GET** /resque/cache/{key} | Show cache object
+[**resqueCacheShow**](docs/MetricsAdminApi.md#resqueCacheShow) | **GET** /resque/cache | Show cache object
 [**resqueCacheUpdate**](docs/MetricsAdminApi.md#resqueCacheUpdate) | **PUT** /resque/cache/{key} | Update cached object
 [**resqueDetails**](docs/MetricsAdminApi.md#resqueDetails) | **GET** /resque/details | Show wholistic details about resque system
 [**resqueTaskDeleteAllFailed**](docs/MetricsAdminApi.md#resqueTaskDeleteAllFailed) | **DELETE** /resque/task/delete-all-failed | Delete all failed task

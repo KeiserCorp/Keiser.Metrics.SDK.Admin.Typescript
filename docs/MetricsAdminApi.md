@@ -8,17 +8,16 @@ Method | HTTP request | Description
 [**authExchangeFulfillment**](MetricsAdminApi.md#authExchangeFulfillment) | **POST** /auth/exchange/fulfillment | Exchanges an authorization token for access and refresh tokens
 [**facilityLicenseCreate**](MetricsAdminApi.md#facilityLicenseCreate) | **POST** /facility/license | Create a facility license
 [**facilityLicenseDelete**](MetricsAdminApi.md#facilityLicenseDelete) | **DELETE** /facility/license/{id} | Delete a facility license
-[**facilityLicenseList**](MetricsAdminApi.md#facilityLicenseList) | **GET** /facility/license | List facility licenses
+[**facilityLicenseList**](MetricsAdminApi.md#facilityLicenseList) | **GET** /facility/license/list | List facility licenses
 [**globalAccessControlCreate**](MetricsAdminApi.md#globalAccessControlCreate) | **POST** /global-access-control | Create a user\&#39;s global access control rights
 [**globalAccessControlDelete**](MetricsAdminApi.md#globalAccessControlDelete) | **DELETE** /global-access-control/{userId} | Delete a user\&#39;s global access control
-[**globalAccessControlList**](MetricsAdminApi.md#globalAccessControlList) | **GET** /global-access-control | List global access control for users
+[**globalAccessControlList**](MetricsAdminApi.md#globalAccessControlList) | **GET** /global-access-control/list | List global access control for users
 [**globalAccessControlRecreateSecret**](MetricsAdminApi.md#globalAccessControlRecreateSecret) | **POST** /global-access-control/recreate-secret | Recreate a user\&#39;s authenticator secret
-[**globalAccessControlShow**](MetricsAdminApi.md#globalAccessControlShow) | **GET** /global-access-control/{userId} | Show a global access control
+[**globalAccessControlShow**](MetricsAdminApi.md#globalAccessControlShow) | **GET** /global-access-control | Show a global access control
 [**globalAccessControlUpdate**](MetricsAdminApi.md#globalAccessControlUpdate) | **PUT** /global-access-control | Update a user global access control rights
 [**resqueCacheCreate**](MetricsAdminApi.md#resqueCacheCreate) | **POST** /resque/cache | Create cached object
 [**resqueCacheDelete**](MetricsAdminApi.md#resqueCacheDelete) | **DELETE** /resque/cache/{key} | Delete cached object
-[**resqueCacheList**](MetricsAdminApi.md#resqueCacheList) | **GET** /resque/cache | List cached objects
-[**resqueCacheShow**](MetricsAdminApi.md#resqueCacheShow) | **GET** /resque/cache/{key} | Show cache object
+[**resqueCacheShow**](MetricsAdminApi.md#resqueCacheShow) | **GET** /resque/cache | Show cache object
 [**resqueCacheUpdate**](MetricsAdminApi.md#resqueCacheUpdate) | **PUT** /resque/cache/{key} | Update cached object
 [**resqueDetails**](MetricsAdminApi.md#resqueDetails) | **GET** /resque/details | Show wholistic details about resque system
 [**resqueTaskDeleteAllFailed**](MetricsAdminApi.md#resqueTaskDeleteAllFailed) | **DELETE** /resque/task/delete-all-failed | Delete all failed task
@@ -557,7 +556,7 @@ import * as fs from 'fs';
 const api = new MetricsAdminApi();
 
 let body:MetricsAdminApiGlobalAccessControlShowRequest = {
-  // number
+  // number (optional)
   userId: 8.14,
   // string (optional)
   apiVersion: apiVersion_example,
@@ -576,7 +575,7 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **userId** | [**number**] |  | defaults to undefined
+ **userId** | [**number**] |  | (optional) defaults to undefined
  **apiVersion** | [**string**] |  | (optional) defaults to undefined
 
 
@@ -757,51 +756,6 @@ Name | Type | Description  | Notes
 ### Return type
 
 void (empty response body)
-
-### Authorization
-
-[bearerAuth](../README.md#bearerAuth)
-
-
-[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
-
-# **resqueCacheList**
-> CacheKeysResponse resqueCacheList()
-
-
-### Example
-
-
-```typescript
-import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
-import * as fs from 'fs';
-
-const api = new MetricsAdminApi();
-
-let body:MetricsAdminApiResqueCacheListRequest = {
-  // string (optional)
-  apiVersion: apiVersion_example,
-};
-
-try {
-  const data = await api.resqueCacheList(body);
-  console.log('API called successfully. Returned data: ' + data);
-} catch (error) {
-  console.error(error);
-}
-```
-
-
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **apiVersion** | [**string**] |  | (optional) defaults to undefined
-
-
-### Return type
-
-**CacheKeysResponse**
 
 ### Authorization
 
