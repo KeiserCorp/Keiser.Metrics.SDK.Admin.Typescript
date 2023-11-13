@@ -17,6 +17,7 @@ Method | HTTP request | Description
 [**globalAccessControlUpdate**](MetricsAdminApi.md#globalAccessControlUpdate) | **PUT** /global-access-control | Update a user global access control rights
 [**resqueCacheCreate**](MetricsAdminApi.md#resqueCacheCreate) | **POST** /resque/cache | Create cached object
 [**resqueCacheDelete**](MetricsAdminApi.md#resqueCacheDelete) | **DELETE** /resque/cache/{key} | Delete cached object
+[**resqueCacheList**](MetricsAdminApi.md#resqueCacheList) | **GET** /resque/cache/list | List cached objects
 [**resqueCacheShow**](MetricsAdminApi.md#resqueCacheShow) | **GET** /resque/cache | Show cache object
 [**resqueCacheUpdate**](MetricsAdminApi.md#resqueCacheUpdate) | **PUT** /resque/cache/{key} | Update cached object
 [**resqueDetails**](MetricsAdminApi.md#resqueDetails) | **GET** /resque/details | Show wholistic details about resque system
@@ -756,6 +757,51 @@ Name | Type | Description  | Notes
 ### Return type
 
 void (empty response body)
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **resqueCacheList**
+> CacheKeysResponse resqueCacheList()
+
+
+### Example
+
+
+```typescript
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsAdminApi();
+
+let body:MetricsAdminApiResqueCacheListRequest = {
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.resqueCacheList(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**CacheKeysResponse**
 
 ### Authorization
 

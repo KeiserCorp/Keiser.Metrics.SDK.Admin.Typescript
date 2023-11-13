@@ -1,4 +1,4 @@
-## @keiser/metrics-sdk-admin-typescript@5.0.12
+## @keiser/metrics-sdk-admin-typescript@5.0.13
 
 ## Project
 This SDK facilitates communication between a client system (_ie: phone app, website, server_) and [Keiser Metrics](https://metrics.keiser.com). The SDK is written in [TypeScript](https://www.typescriptlang.org) and supports both [browser](https://caniuse.com/#feat=es6) and [NodeJS](https://nodejs.org) platforms.
@@ -9,7 +9,7 @@ This SDK facilitates communication between a client system (_ie: phone app, webs
 Navigate to the folder of your consuming project and install with [npm](https://www.npmjs.com/):
 
 ```
-npm install @keiser/metrics-sdk-admin-typescript@5.0.12 --save
+npm install @keiser/metrics-sdk-admin-typescript@5.0.13 --save
 ```
 
 
@@ -64,6 +64,7 @@ Method | HTTP request | Description
 [**globalAccessControlUpdate**](docs/MetricsAdminApi.md#globalAccessControlUpdate) | **PUT** /global-access-control | Update a user global access control rights
 [**resqueCacheCreate**](docs/MetricsAdminApi.md#resqueCacheCreate) | **POST** /resque/cache | Create cached object
 [**resqueCacheDelete**](docs/MetricsAdminApi.md#resqueCacheDelete) | **DELETE** /resque/cache/{key} | Delete cached object
+[**resqueCacheList**](docs/MetricsAdminApi.md#resqueCacheList) | **GET** /resque/cache/list | List cached objects
 [**resqueCacheShow**](docs/MetricsAdminApi.md#resqueCacheShow) | **GET** /resque/cache | Show cache object
 [**resqueCacheUpdate**](docs/MetricsAdminApi.md#resqueCacheUpdate) | **PUT** /resque/cache/{key} | Update cached object
 [**resqueDetails**](docs/MetricsAdminApi.md#resqueDetails) | **GET** /resque/details | Show wholistic details about resque system
