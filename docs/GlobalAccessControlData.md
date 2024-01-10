@@ -31,7 +31,7 @@ Name | Type | Description | Notes
 ## Enum: GlobalAccessControlDataExerciseRightsEnum
 
 
-* `View` (value: `'view'`)
+* `Edit` (value: `'edit'`)
 
 
 
