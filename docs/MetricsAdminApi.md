@@ -15,6 +15,7 @@ Method | HTTP request | Description
 [**globalAccessControlRecreateSecret**](MetricsAdminApi.md#globalAccessControlRecreateSecret) | **POST** /global-access-control/recreate-secret | Recreate a user\&#39;s authenticator secret
 [**globalAccessControlShow**](MetricsAdminApi.md#globalAccessControlShow) | **GET** /global-access-control | Show a global access control
 [**globalAccessControlUpdate**](MetricsAdminApi.md#globalAccessControlUpdate) | **PUT** /global-access-control | Update a user global access control rights
+[**metaServiceStatus**](MetricsAdminApi.md#metaServiceStatus) | **GET** /meta/service-status | Returns current service maintenance status
 [**resqueCacheCreate**](MetricsAdminApi.md#resqueCacheCreate) | **POST** /resque/cache | Create cached object
 [**resqueCacheDelete**](MetricsAdminApi.md#resqueCacheDelete) | **DELETE** /resque/cache/{key} | Delete cached object
 [**resqueCacheList**](MetricsAdminApi.md#resqueCacheList) | **GET** /resque/cache/list | List cached objects
@@ -659,6 +660,51 @@ Name | Type | Description  | Notes
 ### Authorization
 
 [bearerAuth](../README.md#bearerAuth)
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **metaServiceStatus**
+> ServiceStatusResponse metaServiceStatus()
+
+
+### Example
+
+
+```typescript
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsAdminApi();
+
+let body:MetricsAdminApiMetaServiceStatusRequest = {
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.metaServiceStatus(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**ServiceStatusResponse**
+
+### Authorization
+
+No authorization required
 
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

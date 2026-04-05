@@ -1,4 +1,4 @@
-## @keiser/metrics-sdk-admin-typescript@5.3.4
+## @keiser/metrics-sdk-admin-typescript@5.3.5
 
 ## Project
 This SDK facilitates communication between a client system (_ie: phone app, website, server_) and [Keiser Metrics](https://metrics.keiser.com). The SDK is written in [TypeScript](https://www.typescriptlang.org) and supports both [browser](https://caniuse.com/#feat=es6) and [NodeJS](https://nodejs.org) platforms.
@@ -9,7 +9,7 @@ This SDK facilitates communication between a client system (_ie: phone app, webs
 Navigate to the folder of your consuming project and install with [npm](https://www.npmjs.com/):
 
 ```
-npm install @keiser/metrics-sdk-admin-typescript@5.3.4 --save
+npm install @keiser/metrics-sdk-admin-typescript@5.3.5 --save
 ```
 
 
@@ -62,6 +62,7 @@ Method | HTTP request | Description
 [**globalAccessControlRecreateSecret**](docs/MetricsAdminApi.md#globalAccessControlRecreateSecret) | **POST** /global-access-control/recreate-secret | Recreate a user\&#39;s authenticator secret
 [**globalAccessControlShow**](docs/MetricsAdminApi.md#globalAccessControlShow) | **GET** /global-access-control | Show a global access control
 [**globalAccessControlUpdate**](docs/MetricsAdminApi.md#globalAccessControlUpdate) | **PUT** /global-access-control | Update a user global access control rights
+[**metaServiceStatus**](docs/MetricsAdminApi.md#metaServiceStatus) | **GET** /meta/service-status | Returns current service maintenance status
 [**resqueCacheCreate**](docs/MetricsAdminApi.md#resqueCacheCreate) | **POST** /resque/cache | Create cached object
 [**resqueCacheDelete**](docs/MetricsAdminApi.md#resqueCacheDelete) | **DELETE** /resque/cache/{key} | Delete cached object
 [**resqueCacheList**](docs/MetricsAdminApi.md#resqueCacheList) | **GET** /resque/cache/list | List cached objects
@@ -147,6 +148,7 @@ Method | HTTP request | Description
  - [MSeriesDataSetSegmentData](docs/MSeriesDataSetSegmentData.md)
  - [MSeriesFtpMeasurementData](docs/MSeriesFtpMeasurementData.md)
  - [MSeriesGuidedSessionRight](docs/MSeriesGuidedSessionRight.md)
+ - [MaintenanceStatus](docs/MaintenanceStatus.md)
  - [MuscleArea](docs/MuscleArea.md)
  - [MuscleData](docs/MuscleData.md)
  - [MuscleGroup](docs/MuscleGroup.md)
@@ -159,6 +161,7 @@ Method | HTTP request | Description
  - [ResqueDetailsData](docs/ResqueDetailsData.md)
  - [ResqueDetailsResponse](docs/ResqueDetailsResponse.md)
  - [ResqueRight](docs/ResqueRight.md)
+ - [ServiceStatusResponse](docs/ServiceStatusResponse.md)
  - [SessionData](docs/SessionData.md)
  - [SessionPlanActivitySetData](docs/SessionPlanActivitySetData.md)
  - [SessionPlanCardioSetData](docs/SessionPlanCardioSetData.md)
