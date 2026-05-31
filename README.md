@@ -1,4 +1,4 @@
-## @keiser/metrics-sdk-admin-typescript@5.3.18
+## @keiser/metrics-sdk-admin-typescript@5.4.0
 
 ## Project
 This SDK facilitates communication between a client system (_ie: phone app, website, server_) and [Keiser Metrics](https://metrics.keiser.com). The SDK is written in [TypeScript](https://www.typescriptlang.org) and supports both [browser](https://caniuse.com/#feat=es6) and [NodeJS](https://nodejs.org) platforms.
@@ -9,7 +9,7 @@ This SDK facilitates communication between a client system (_ie: phone app, webs
 Navigate to the folder of your consuming project and install with [npm](https://www.npmjs.com/):
 
 ```
-npm install @keiser/metrics-sdk-admin-typescript@5.3.18 --save
+npm install @keiser/metrics-sdk-admin-typescript@5.4.0 --save
 ```
 
 
@@ -53,6 +53,7 @@ Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**adminLogin**](docs/MetricsAdminApi.md#adminLogin) | **POST** /admin/login | Login admin user using email, password, and 2FA token
 [**authExchangeFulfillment**](docs/MetricsAdminApi.md#authExchangeFulfillment) | **POST** /auth/exchange/fulfillment | Exchanges an authorization token for access and refresh tokens
+[**facilityCreateAndInvite**](docs/MetricsAdminApi.md#facilityCreateAndInvite) | **POST** /facility/create-and-invite | Create a facility and invite a user to be its admin, or re-invite an admin to an existing admin-less facility
 [**facilityLicenseCreate**](docs/MetricsAdminApi.md#facilityLicenseCreate) | **POST** /facility/license | Create a facility license
 [**facilityLicenseDelete**](docs/MetricsAdminApi.md#facilityLicenseDelete) | **DELETE** /facility/license/{id} | Delete a facility license
 [**facilityLicenseList**](docs/MetricsAdminApi.md#facilityLicenseList) | **GET** /facility/license/list | List facility licenses
@@ -86,6 +87,7 @@ Method | HTTP request | Description
 
 ## Documentation for Models
 
+ - [A400DataSetData](docs/A400DataSetData.md)
  - [A500AppType](docs/A500AppType.md)
  - [A500DataSetData](docs/A500DataSetData.md)
  - [A500DataSetType](docs/A500DataSetType.md)
@@ -106,8 +108,12 @@ Method | HTTP request | Description
  - [CardioMachineData](docs/CardioMachineData.md)
  - [CardioMachineParseCode](docs/CardioMachineParseCode.md)
  - [CharacterType](docs/CharacterType.md)
+ - [DisplayDataMode](docs/DisplayDataMode.md)
+ - [DisplayFocusMode](docs/DisplayFocusMode.md)
+ - [DisplayUnit](docs/DisplayUnit.md)
  - [EmailAddressData](docs/EmailAddressData.md)
  - [EmployeeRole](docs/EmployeeRole.md)
+ - [Exercise](docs/Exercise.md)
  - [ExerciseAliasData](docs/ExerciseAliasData.md)
  - [ExerciseAliasType](docs/ExerciseAliasType.md)
  - [ExerciseOrdinalSetAssignmentData](docs/ExerciseOrdinalSetAssignmentData.md)
@@ -115,6 +121,10 @@ Method | HTTP request | Description
  - [ExerciseRight](docs/ExerciseRight.md)
  - [FacilityConfigurationData](docs/FacilityConfigurationData.md)
  - [FacilityData](docs/FacilityData.md)
+ - [FacilityDisplayConfigurationData](docs/FacilityDisplayConfigurationData.md)
+ - [FacilityDisplayOperatingSchedule](docs/FacilityDisplayOperatingSchedule.md)
+ - [FacilityDisplayOperatingScheduleEntry](docs/FacilityDisplayOperatingScheduleEntry.md)
+ - [FacilityDisplayOperatingScheduleTime](docs/FacilityDisplayOperatingScheduleTime.md)
  - [FacilityLicenseData](docs/FacilityLicenseData.md)
  - [FacilityLicenseListResponse](docs/FacilityLicenseListResponse.md)
  - [FacilityLicenseListResponseMeta](docs/FacilityLicenseListResponseMeta.md)
@@ -123,6 +133,7 @@ Method | HTTP request | Description
  - [FacilityLicenseType](docs/FacilityLicenseType.md)
  - [FacilityProfileData](docs/FacilityProfileData.md)
  - [FacilityRelationshipData](docs/FacilityRelationshipData.md)
+ - [FacilityResponse](docs/FacilityResponse.md)
  - [FacilityRight](docs/FacilityRight.md)
  - [FacilitySessionUserData](docs/FacilitySessionUserData.md)
  - [FacilityStrengthMachineConfigurationData](docs/FacilityStrengthMachineConfigurationData.md)
@@ -148,12 +159,15 @@ Method | HTTP request | Description
  - [MSeriesDataSetSegmentData](docs/MSeriesDataSetSegmentData.md)
  - [MSeriesFtpMeasurementData](docs/MSeriesFtpMeasurementData.md)
  - [MSeriesGuidedSessionRight](docs/MSeriesGuidedSessionRight.md)
+ - [MachineWorkoutSetResponseData](docs/MachineWorkoutSetResponseData.md)
  - [MaintenanceStatus](docs/MaintenanceStatus.md)
+ - [MotionDataPoint](docs/MotionDataPoint.md)
  - [MuscleArea](docs/MuscleArea.md)
  - [MuscleData](docs/MuscleData.md)
  - [MuscleGroup](docs/MuscleGroup.md)
  - [MuscleTargetLevel](docs/MuscleTargetLevel.md)
  - [OAuthServiceData](docs/OAuthServiceData.md)
+ - [PowerRegression](docs/PowerRegression.md)
  - [PrimaryEmailAddressData](docs/PrimaryEmailAddressData.md)
  - [ProfileData](docs/ProfileData.md)
  - [Queue](docs/Queue.md)
@@ -174,7 +188,9 @@ Method | HTTP request | Description
  - [SessionPlanSetType](docs/SessionPlanSetType.md)
  - [SessionPlanStrengthSetData](docs/SessionPlanStrengthSetData.md)
  - [SessionPlanStretchSetData](docs/SessionPlanStretchSetData.md)
+ - [SetType](docs/SetType.md)
  - [Side](docs/Side.md)
+ - [SixRepTestData](docs/SixRepTestData.md)
  - [StatData](docs/StatData.md)
  - [StatListResponse](docs/StatListResponse.md)
  - [StatListResponseMeta](docs/StatListResponseMeta.md)
@@ -194,6 +210,7 @@ Method | HTTP request | Description
  - [StrengthMachineDataSetTestSubsetData](docs/StrengthMachineDataSetTestSubsetData.md)
  - [StrengthMachineLine](docs/StrengthMachineLine.md)
  - [StrengthMachineModelData](docs/StrengthMachineModelData.md)
+ - [StrengthMachineModelNumberData](docs/StrengthMachineModelNumberData.md)
  - [StrengthTestType](docs/StrengthTestType.md)
  - [StretchExerciseData](docs/StretchExerciseData.md)
  - [StretchExerciseVariantData](docs/StretchExerciseVariantData.md)
@@ -206,15 +223,23 @@ Method | HTTP request | Description
  - [TaskQueues](docs/TaskQueues.md)
  - [TaskSorting](docs/TaskSorting.md)
  - [TaskStats](docs/TaskStats.md)
+ - [TenRepTestData](docs/TenRepTestData.md)
+ - [TenRepTestSideResults](docs/TenRepTestSideResults.md)
  - [TestSide](docs/TestSide.md)
+ - [TimeZone](docs/TimeZone.md)
  - [UserData](docs/UserData.md)
  - [UserListResponse](docs/UserListResponse.md)
  - [UserListResponseMeta](docs/UserListResponseMeta.md)
  - [UserResponse](docs/UserResponse.md)
  - [UserRight](docs/UserRight.md)
  - [UserSorting](docs/UserSorting.md)
+ - [Value](docs/Value.md)
+ - [VelocityRegression](docs/VelocityRegression.md)
  - [WeightMeasurementData](docs/WeightMeasurementData.md)
  - [WorkersResponse](docs/WorkersResponse.md)
+ - [WorkoutSetPositionDataEvent](docs/WorkoutSetPositionDataEvent.md)
+ - [WorkoutSetRepDataPoint](docs/WorkoutSetRepDataPoint.md)
+ - [WorkoutSetSideData](docs/WorkoutSetSideData.md)
 
 
 ## Documentation for Authorization

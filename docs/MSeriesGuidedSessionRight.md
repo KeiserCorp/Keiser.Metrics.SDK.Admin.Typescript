@@ -3,9 +3,9 @@
 ## Enum
 
 
-* `Access` (value: `'access'`)
+* `access` (value: `'access'`)
 
-* `Publish` (value: `'publish'`)
+* `publish` (value: `'publish'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

@@ -3,13 +3,13 @@
 ## Enum
 
 
-* `Id` (value: `'id'`)
+* `id` (value: `'id'`)
 
-* `Type` (value: `'type'`)
+* `type` (value: `'type'`)
 
-* `Term` (value: `'term'`)
+* `term` (value: `'term'`)
 
-* `EffectiveDate` (value: `'effectiveDate'`)
+* `effectiveDate` (value: `'effectiveDate'`)
 
 
 [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)

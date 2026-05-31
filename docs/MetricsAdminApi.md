@@ -6,6 +6,7 @@ Method | HTTP request | Description
 ------------- | ------------- | -------------
 [**adminLogin**](MetricsAdminApi.md#adminLogin) | **POST** /admin/login | Login admin user using email, password, and 2FA token
 [**authExchangeFulfillment**](MetricsAdminApi.md#authExchangeFulfillment) | **POST** /auth/exchange/fulfillment | Exchanges an authorization token for access and refresh tokens
+[**facilityCreateAndInvite**](MetricsAdminApi.md#facilityCreateAndInvite) | **POST** /facility/create-and-invite | Create a facility and invite a user to be its admin, or re-invite an admin to an existing admin-less facility
 [**facilityLicenseCreate**](MetricsAdminApi.md#facilityLicenseCreate) | **POST** /facility/license | Create a facility license
 [**facilityLicenseDelete**](MetricsAdminApi.md#facilityLicenseDelete) | **DELETE** /facility/license/{id} | Delete a facility license
 [**facilityLicenseList**](MetricsAdminApi.md#facilityLicenseList) | **GET** /facility/license/list | List facility licenses
@@ -138,6 +139,60 @@ Name | Type | Description  | Notes
 ### Authorization
 
 No authorization required
+
+
+[[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
+
+# **facilityCreateAndInvite**
+> FacilityResponse facilityCreateAndInvite()
+
+
+### Example
+
+
+```typescript
+import { MetricsAdminApi } from '@keiser/metrics-sdk-admin-typescript';
+import * as fs from 'fs';
+
+const api = new MetricsAdminApi();
+
+let body:MetricsAdminApiFacilityCreateAndInviteRequest = {
+  // string
+  email: email_example,
+  // number (optional)
+  facilityId: 8.14,
+  // string (optional)
+  name: name_example,
+  // string (optional)
+  apiVersion: apiVersion_example,
+};
+
+try {
+  const data = await api.facilityCreateAndInvite(body);
+  console.log('API called successfully. Returned data: ' + data);
+} catch (error) {
+  console.error(error);
+}
+```
+
+
+### Parameters
+
+Name | Type | Description  | Notes
+------------- | ------------- | ------------- | -------------
+ **email** | [**string**] |  | defaults to undefined
+ **facilityId** | [**number**] |  | (optional) defaults to undefined
+ **name** | [**string**] |  | (optional) defaults to undefined
+ **apiVersion** | [**string**] |  | (optional) defaults to undefined
+
+
+### Return type
+
+**FacilityResponse**
+
+### Authorization
+
+[bearerAuth](../README.md#bearerAuth)
 
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
