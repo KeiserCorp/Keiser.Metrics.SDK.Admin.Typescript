@@ -397,6 +397,8 @@ let body:MetricsAdminApiGlobalAccessControlCreateRequest = {
   // string (optional)
   facilityRights: facilityRights_example,
   // string (optional)
+  fieldSupportRights: fieldSupportRights_example,
+  // string (optional)
   licenseRights: licenseRights_example,
   // string (optional)
   mSeriesGuidedSessionRights: mSeriesGuidedSessionRights_example,
@@ -427,6 +429,7 @@ Name | Type | Description  | Notes
  **analyticRights** | [**string**] | Allowed values: view | (optional) defaults to undefined
  **exerciseRights** | [**string**] | Allowed values: edit | (optional) defaults to undefined
  **facilityRights** | [**string**] | Allowed values: view, edit | (optional) defaults to undefined
+ **fieldSupportRights** | [**string**] | Allowed values: view, edit | (optional) defaults to undefined
  **licenseRights** | [**string**] | Allowed values: view, edit | (optional) defaults to undefined
  **mSeriesGuidedSessionRights** | [**string**] | Allowed values: access, publish | (optional) defaults to undefined
  **resqueRights** | [**string**] | Allowed values: view, edit | (optional) defaults to undefined
@@ -670,6 +673,8 @@ let body:MetricsAdminApiGlobalAccessControlUpdateRequest = {
   // string (optional)
   facilityRights: facilityRights_example,
   // string (optional)
+  fieldSupportRights: fieldSupportRights_example,
+  // string (optional)
   licenseRights: licenseRights_example,
   // string (optional)
   mSeriesGuidedSessionRights: mSeriesGuidedSessionRights_example,
@@ -700,6 +705,7 @@ Name | Type | Description  | Notes
  **analyticRights** | [**string**] | Allowed values: view | (optional) defaults to undefined
  **exerciseRights** | [**string**] | Allowed values: edit | (optional) defaults to undefined
  **facilityRights** | [**string**] | Allowed values: view, edit | (optional) defaults to undefined
+ **fieldSupportRights** | [**string**] | Allowed values: view, edit | (optional) defaults to undefined
  **licenseRights** | [**string**] | Allowed values: view, edit | (optional) defaults to undefined
  **mSeriesGuidedSessionRights** | [**string**] | Allowed values: access, publish | (optional) defaults to undefined
  **resqueRights** | [**string**] | Allowed values: view, edit | (optional) defaults to undefined

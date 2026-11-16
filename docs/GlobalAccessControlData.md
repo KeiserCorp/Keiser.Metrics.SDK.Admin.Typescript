@@ -13,6 +13,7 @@ Name | Type | Description | Notes
 **accessControlRights** | [**AccessControlRight**](AccessControlRight.md) |  | [optional] [default to undefined]
 **resqueRights** | [**ResqueRight**](ResqueRight.md) |  | [optional] [default to undefined]
 **analyticRights** | [**AnalyticRight**](AnalyticRight.md) |  | [optional] [default to undefined]
+**fieldSupportRights** | [**FieldSupportRight**](FieldSupportRight.md) |  | [optional] [default to undefined]
 **user** | [**UserData**](UserData.md) |  | [optional] [default to undefined]
 
 

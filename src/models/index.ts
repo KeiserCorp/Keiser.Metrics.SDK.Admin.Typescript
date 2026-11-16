@@ -51,6 +51,7 @@ export * from './FacilityRight';
 export * from './FacilitySessionUserData';
 export * from './FacilityStrengthMachineConfigurationData';
 export * from './FacilityStrengthMachineData';
+export * from './FieldSupportRight';
 export * from './ForceUnit';
 export * from './GlobalAccessControlCreationResponse';
 export * from './GlobalAccessControlData';

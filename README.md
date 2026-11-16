@@ -1,4 +1,4 @@
-## @keiser/metrics-sdk-admin-typescript@5.9.2
+## @keiser/metrics-sdk-admin-typescript@5.10.0
 
 ## Project
 This SDK facilitates communication between a client system (_ie: phone app, website, server_) and [Keiser Metrics](https://metrics.keiser.com). The SDK is written in [TypeScript](https://www.typescriptlang.org) and supports both [browser](https://caniuse.com/#feat=es6) and [NodeJS](https://nodejs.org) platforms.
@@ -9,7 +9,7 @@ This SDK facilitates communication between a client system (_ie: phone app, webs
 Navigate to the folder of your consuming project and install with [npm](https://www.npmjs.com/):
 
 ```
-npm install @keiser/metrics-sdk-admin-typescript@5.9.2 --save
+npm install @keiser/metrics-sdk-admin-typescript@5.10.0 --save
 ```
 
 
@@ -138,6 +138,7 @@ Method | HTTP request | Description
  - [FacilitySessionUserData](docs/FacilitySessionUserData.md)
  - [FacilityStrengthMachineConfigurationData](docs/FacilityStrengthMachineConfigurationData.md)
  - [FacilityStrengthMachineData](docs/FacilityStrengthMachineData.md)
+ - [FieldSupportRight](docs/FieldSupportRight.md)
  - [ForceUnit](docs/ForceUnit.md)
  - [GlobalAccessControlCreationResponse](docs/GlobalAccessControlCreationResponse.md)
  - [GlobalAccessControlData](docs/GlobalAccessControlData.md)
